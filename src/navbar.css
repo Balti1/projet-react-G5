@@ -1,0 +1,48 @@
+/* navbar.css */
+
+.navbar {
+  background-color: #f3eee8;
+  color: black;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-items {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin-right: 38%;
+}
+
+.nav-items li {
+  margin-right: 20px;
+}
+
+.nav-items a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 16px;
+}
+/* Add your existing styles here */
+
+.logo-container {
+  margin-right: auto; /* Pushes the logo to the far left */
+}
+
+.logo-container img {
+  max-height: 40px; /* Adjust the height as needed */
+}
+
+.user-icons {
+  display: flex;
+  align-items: center;
+}
+
+.profile-icon img,
+.cart-icon img {
+  max-height: 30px; /* Adjust the height as needed */
+  margin-left: 20px;
+}

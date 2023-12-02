@@ -1,0 +1,55 @@
+/* section.css */
+
+.section1 {
+  background-color: #f3eee8;
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+}
+
+.text-container {
+  flex: 1; /* Take up 50% of the space */
+  padding: 20px;
+  box-sizing: border-box;
+  margin-top: 100px;
+}
+
+.text-overlay {
+  text-align: left;
+}
+
+.video-container {
+  flex: 1;
+  position: relative;
+  border-left: 2px solid white;
+  border-radius: 15%;
+  overflow: hidden;
+  margin-top: 70px;
+  margin-right: 20px;
+  margin-bottom: 70px;
+}
+
+.background-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.text-overlay h2 {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+.text-overlay p {
+  font-size: 1.5em;
+}

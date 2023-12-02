@@ -1,0 +1,167 @@
+/* home.css */
+
+.home-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f7f7f7;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.featured-section {
+  margin-bottom: 40px;
+}
+
+.featured-product {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.featured-product img {
+  max-width: 20%;
+  border-radius: 8px;
+}
+
+.product-details {
+  margin-left: 10%;
+  max-width: 60%;
+}
+
+.product-details h2 {
+  color: #333;
+  margin-bottom: 10px;
+  margin-top: 0;
+}
+
+.product-details p {
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.product-details button {
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  display: block;
+  max-width: 40%;
+}
+
+.product-details button:hover {
+  background-color: #2980b9;
+}
+
+.categories-section {
+  margin-bottom: 40px;
+}
+
+.category {
+  margin-bottom: 20px;
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.category img {
+  max-width: 100%;
+  border-radius: 8px 8px 0 0;
+}
+
+.category p {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  margin: 0;
+}
+
+.promotions-section {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.promotion img {
+  width: 48%;
+  border-radius: 8px;
+}
+
+.testimonials-section {
+  text-align: center;
+}
+
+.testimonial {
+  margin-bottom: 20px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial p {
+  color: #333;
+}
+
+.testimonial p:last-child {
+  margin-top: 10px;
+  color: #666;
+}
+.featured-section {
+  position: relative;
+}
+
+.featured-navigation {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.featured-navigation button {
+  background-color: whitesmoke; /* Updated background color */
+  color: black;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-size: 18px;
+  outline: none;
+  opacity: 0.7; /* Opacity added */
+  transition: opacity 0.3s ease; /* Smooth transition on hover */
+}
+
+.featured-navigation button:hover {
+  background-color: whitesmoke; /* Updated hover background color */
+  opacity: 0.3; /* Full opacity on hover */
+}
+.original-price {
+  text-decoration: line-through;
+  color: #888;
+}
+
+.promoted-price {
+  color: #e44d26; /* Adjust the color as needed */
+}
+
+.promotion {
+  text-align: center;
+}
+
+.promotion-details {
+  margin-top: 10px;
+}
+.prev-button {
+  margin-right: 90%; /* Adjust the margin as needed */
+}
+
+.next-button {
+  margin-left: 10px; /* Adjust the margin as needed */
+}
